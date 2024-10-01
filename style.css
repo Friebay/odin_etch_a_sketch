@@ -1,0 +1,17 @@
+/* Make sure the container takes up the appropriate space */
+#container {
+    display: flex;
+    flex-wrap: wrap;  /* Wraps the squares into a grid */
+    width: 400px;     /* Adjust this based on how large you want the grid */
+    height: 400px;    /* Adjust the height similarly */
+    border: 1px solid #000; /* Optional border to visualize the grid */
+  }
+  
+  /* Style for each grid square */
+  .square {
+    width: 25px;      /* 400px / 16 = 25px for a perfect 16x16 grid */
+    height: 25px;
+    border: 1px solid lightgray;  /* Optional: You can remove the border if not needed */
+    box-sizing: border-box;  /* Ensure padding and border are included in the width/height */
+  }
+  
