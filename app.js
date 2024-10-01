@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
 });
 
 function createGrid(gridSize) {
-    const squareSize = 400 / gridSize;
+    const squareSize = 720 / gridSize;
 
     for (let i = 0; i < gridSize * gridSize; i++) {
         const square = document.createElement('div');
